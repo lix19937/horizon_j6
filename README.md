@@ -13,7 +13,8 @@ docker load -i docker_open_explorer_ubuntu_22_j6_gpu_v3.0.31.tar.gz
 
 + install  
 ```bash   
-docker run --gpus all -it -v /home/gwm/workspace/J6_start_3031/:/open_explorer  --shm-size 128G   openexplorer/ai_toolchain_ubuntu_22_j6_gpu:v3.0.31
+docker run --gpus all -it -v /home/gwm/workspace/J6_start_3031/:/open_explorer \
+  --shm-size 128G   openexplorer/ai_toolchain_ubuntu_22_j6_gpu:v3.0.31
 ```
 
 + check    
