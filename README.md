@@ -8,7 +8,7 @@
 docker load -i docker_open_explorer_ubuntu_22_j6_gpu_v3.0.31.tar.gz   
 ```
 
-显示如下 Loaded image: openexplorer/ai_toolchain_ubuntu_22_j6_gpu:v3.0.31   
+>> 显示如下 Loaded image: openexplorer/ai_toolchain_ubuntu_22_j6_gpu:v3.0.31   
 
 
 + install  
