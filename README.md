@@ -65,17 +65,17 @@ j6 默认相机输出为nv12（推荐的一个前提）， 因此即使onnx 模�
 如果相机输出经过某些原因变成了bgr， 此时则不应该在推理阶段再使用nv12了，如果还使用nv12，则会引入转换误差以及耗时增加  
 
 
-ptq 精度不及预期
+ptq 精度不及预期     
 
 sudo mount -o nolock -t nfs 10.246.101.232:/share/data /home/gwm/workspaces/shared
 
-export fp32 onnx 
+export fp32 onnx     
 https://developer.horizon.auto/blog/10174
 
-forum  
+forum    
 https://developer.horizon.auto/forum  
 
-learn abc
+learn abc      
 https://www.cnblogs.com/horizondeveloper/p/18402297
 
 
