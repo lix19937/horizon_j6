@@ -41,7 +41,8 @@ open the *.html to get the fps and latency
 
 + profile  on board   
 ```bash      
-/userdata/.horizon/hrt_model_exec perf   --profile_path ./  --thread_num 1 --frame_count 1000   --model_file ./float_sparse_lss_featuremap.hbm  
+/userdata/.horizon/hrt_model_exec perf   --profile_path ./   \
+   --thread_num 1 --frame_count 1000   --model_file ./float_sparse_lss_featuremap.hbm  
 
 
 export LD_LIBRARY_PATH=/userdata/.horizon/lib:$LD_LIBRARY_PATH
