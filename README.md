@@ -1,5 +1,6 @@
 # horizon_j6
 
+> oe-sdk 3.0.31    
 
 ##  easy hb benchmark 
 
