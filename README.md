@@ -1,5 +1,7 @@
 # horizon_j6
 
+[bc vs hbm](./img/readme.md)
+
 > oe-sdk 3.0.31    
 
 ##  easy hb benchmark 
